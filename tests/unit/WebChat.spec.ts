@@ -68,7 +68,7 @@ describe('WebChat component', () => {
     requestAnimationFrame(() => {
       expect(wrapper.find('#closed-tooltip-message').text().replace(/\s+/g, ' '))
         .toBe('We are closed. The Service BC Contact Centre is open Monday through Friday 7:30am – ' +
-          '5:00pm Pacific Time excluding BC statutory holidays.'.replace(/\s+/g, ' '))
+          '5:00pm Pacific time excluding BC statutory holidays.'.replace(/\s+/g, ' '))
       done()
     })
   })
