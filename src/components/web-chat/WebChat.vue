@@ -96,7 +96,7 @@ export default class ChatPopup extends Vue {
   readonly openTooltipMessage!: string
 
   @Prop({ default: 'We are closed. The Service BC Contact Centre is open Monday through ' +
-    'Friday 7:30am – 5:00pm Pacific Time excluding BC statutory holidays.' })
+    'Friday 7:30am – 5:00pm Pacific time excluding BC statutory holidays.' })
   readonly closedTooltipMessage!: string
 
   @Prop({ default: 'Webchat is temporarily unavailable.' })
